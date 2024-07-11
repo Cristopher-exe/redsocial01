@@ -1,0 +1,185 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+  }
+  
+  .reservation-container {
+    max-width: 500px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+}
+
+.reservation-form {
+    width: 100%; /* Ancho del formulario */
+   
+}
+.container{
+  width: 100px; /* Ajusta el ancho máximo según tu preferencia */
+  margin: 0 auto;
+  padding: 20px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #000;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus {
+    outline: none;
+    border-color: #C4A668;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #C4A668;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #C4A668;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li:last-child {
+    margin-bottom: 0;
+  }
+  
+  li div {
+    margin-bottom: 10px;
+  }
+  
+  .delete-button {
+    margin-left: 10px;
+    background-color: #dc3545;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Estilos para el campo de búsqueda */
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  .search-input:focus {
+    outline: none;
+    border-color: #C4A668;
+  }
+  /* Estilos para el calendario */
+.react-datepicker-wrapper {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .react-datepicker {
+    font-family: Arial, sans-serif;
+  }
+  
+  .react-datepicker__header {
+    background-color: #C4A668;
+    color: #fff;
+  }
+  
+  .react-datepicker__navigation {
+    top: 25px;
+  }
+  
+  .react-datepicker__current-month {
+    font-size: 18px;
+  }
+  
+  .react-datepicker__day-names {
+    display: flex;
+  }
+  
+  .react-datepicker__day-name, .react-datepicker__day {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 50%;
+  }
+  
+  .react-datepicker__day:hover {
+    background-color: #C4A668;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .react-datepicker__day--selected {
+    background-color: #C4A668;
+    color: #fff;
+  }
+  
+  .react-datepicker__day--disabled {
+    color: #ccc;
+  }
+  /* Estilos para el contenedor del mapa */
+.map-container {
+  width: 50%; /* Ancho completo del contenedor */
+  height: 400px; /* Altura del contenedor del mapa */
+  border-radius: 5px; /* Bordes redondeados */
+  overflow: hidden; /* Oculta el desbordamiento del mapa */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para resaltar el contenedor */
+}
+
+/* Estilos opcionales para el mapa mismo */
+.google-map {
+  width: 100%;
+  height: 100%;
+}
+
+
+.invite-button-container {
+  margin-bottom: 20px; /* Espacio entre el botón y el resto del contenido */
+  text-align: left; /* Alineación del texto a la izquierda */
+}
+
+.invite-button-container button {
+  background-color: #4CAF50; /* Color de fondo del botón */
+  border: none; /* Eliminar bordes */
+  color: white; /* Color del texto */
+  padding: 10px 20px; /* Espaciado interno */
+  text-align: center; /* Alineación del texto */
+  text-decoration: none; /* Quitar subrayado */
+  display: inline-block; /* Mostrar como bloque en línea */
+  font-size: 16px; /* Tamaño de la fuente */
+  margin-right: 10px; /* Margen derecho */
+  cursor: pointer; /* Cambiar el cursor al pasar por encima */
+}

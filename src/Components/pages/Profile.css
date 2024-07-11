@@ -1,0 +1,29 @@
+.profile-img {
+    width: 80px; /* Ancho de la imagen */
+    height: 80px; /* Altura de la imagen */
+    margin-right: 30px; /* Ajusta el margen derecho de la imagen */
+    margin-bottom: 9px; /* Ajusta el espacio inferior de la imagen */
+    border-radius: 50%; /* Bordes redondeados para simular una foto de perfil */
+  }
+  .profile-info {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+  }
+  
+  .profile-img {
+    width: 80px; /* Ancho de la imagen */
+    height: 80px; /* Altura de la imagen */
+    margin-right: 20px; /* Margen a la derecha de la imagen */
+    border-radius: 50%; /* Bordes redondeados para simular una foto de perfil */
+  }
+  
+  .profile-name {
+    font-size: 1.5rem; /* Tamaño de fuente del nombre */
+    font-weight: bold; /* Negrita */
+    color: white;
+  }
+  
+  .profile-email {
+    margin-top: 2px; /* Ajusta el espacio superior del correo electrónico */
+    font-size: 1rem; /* Tamaño de fuente del correo electrónico */
+  }
